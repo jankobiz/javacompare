@@ -19,9 +19,10 @@ import java.util.logging.Logger;
  * @author Ivica
  */
 public class JavaCompare {
-    private static final Logger logger = Logger.getLogger("mylogger");    
+    private static final Logger logger = Logger.getLogger("mylogger");
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException {
         Handler fileHandler = new FileHandler("L:\\develop\\Java\\JavaCompare\\logs\\mylog.log");
